@@ -28,8 +28,6 @@ namespace Szamologep_lite
                 Console.WriteLine($"A szorzásának eredménye: {szorzas}");
             }
 
-            
-
             //Változókkal való müveletek eredményének a kiiratása!
             Console.WriteLine($"Az összeadásának eredménye: {osszeadas}");
             Console.WriteLine($"A kivonásának eredménye: {kivonas}");
