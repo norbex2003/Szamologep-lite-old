@@ -14,7 +14,10 @@ namespace Szamologep_lite
             double kivonas = Math.Round(a - b, 4);
             double szorzas = Math.Round(a * b, 4);
             double osztas = Math.Round(a / b, 4);
-            
+
+            Console.WriteLine($"Az összeadásának eredménye: {osszeadas}");
+            Console.WriteLine($"A kivonásának eredménye: {kivonas}");
+
             if (osztas == 0 && szorzas == 0)
             {
                 Console.WriteLine("A nullával való osztásnak nincs értelme");
@@ -27,10 +30,6 @@ namespace Szamologep_lite
                 Console.WriteLine($"Az osztásának eredménye: {osztas}");
                 Console.WriteLine($"A szorzásának eredménye: {szorzas}");
             }
-
-            //Változókkal való müveletek eredményének a kiiratása!
-            Console.WriteLine($"Az összeadásának eredménye: {osszeadas}");
-            Console.WriteLine($"A kivonásának eredménye: {kivonas}");
             Console.ReadKey();
         }
     }
