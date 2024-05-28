@@ -6,7 +6,6 @@ namespace Szamologep_lite
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.0 verzió esetében angol nyelv eltávolításra került! Később másik app lesz az angol nyelv");
             Console.WriteLine("Kérek egy számot!");
             double a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Kérek még egy számot!");
